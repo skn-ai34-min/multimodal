@@ -1,15 +1,17 @@
 multi_venv
 cachedir
 models
-
+runs
+results
 __pycache__/
 *.py[cod]
 *$py.class
 .python-version
 
 data
-
+*.mp4
 *.model
+*.pt
 *.vocab
 *.txt
 *.gz
@@ -23,6 +25,7 @@ data
 *.jsonl
 *.json
 *.pdf
+*.jpg
 db/
 
 *.db
